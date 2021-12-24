@@ -1,8 +1,42 @@
 body
 {
-    background-color: blue;
+    background-color: #072238;
     /*color: lightblue;*/
     /*width: 200px;*/
     /*border: 2px solid #ffd700;*/
+    font-family: 'Sora';
+}
+
+
+/*pieski ziarka*/
+header h1
+{
+    color: #4EE787;
+    font-size: 200%;
+}
+
+
+/*sam case na p*/
+header
+{
+    background-color: #263E51;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    padding-right: 1.5em;
+    padding-left: 1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    width: 80%;
+    max-width: 960px;
+    text-align: center;
+}
+
+
+/*glosuj na*/
+header p
+{
+    color: #16D298;
+    font-size: 130%;
 }
 
