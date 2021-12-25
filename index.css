@@ -40,3 +40,33 @@ header p
     font-size: 130%;
 }
 
+
+.post
+{
+    width: 90%;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    text-align: center;
+    background-color: #263E51;
+    padding-top: 7em;
+    padding-bottom: 5em;
+    padding-right: 3.5em;
+    padding-left: 3.5em;
+}
+
+.post img
+{
+    margin-top: auto;
+    width: 90%;
+}
+
+#przycisk
+{
+    margin-top: 1em;
+    margin-bottom: auto;
+    margin-left: -46em;
+    /*display: block;*/
+}
+
