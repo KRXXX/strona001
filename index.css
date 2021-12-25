@@ -12,7 +12,7 @@ body
 header h1
 {
     color: #4EE787;
-    font-size: 200%;
+    font-size: 6rem;
 }
 
 
@@ -22,13 +22,13 @@ header
     background-color: #263E51;
     padding-top: 3em;
     padding-bottom: 3em;
-    padding-right: 1.5em;
-    padding-left: 1.5em;
+    padding-right: 3.5em;
+    padding-left: 3.5em;
     margin-left: auto;
     margin-right: auto;
     margin-top: 5em;
-    width: 80%;
-    max-width: 960px;
+    width: 90%;
+    max-width: 1200px;
     text-align: center;
 }
 
@@ -37,7 +37,7 @@ header
 header p
 {
     color: #16D298;
-    font-size: 130%;
+    font-size: 3rem;
 }
 
 
@@ -48,7 +48,6 @@ header p
     margin-left: auto;
     margin-right: auto;
     margin-top: 2em;
-    text-align: center;
     background-color: #263E51;
     padding-top: 7em;
     padding-bottom: 5em;
@@ -59,14 +58,32 @@ header p
 .post img
 {
     margin-top: auto;
-    width: 90%;
+    width: 100%;
 }
 
-#przycisk
+
+.post .mocne
 {
     margin-top: 1em;
     margin-bottom: auto;
-    margin-left: -46em;
-    /*display: block;*/
+    margin-left: 1em;
+    /*display: block;*/   
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    background-color: #6ab04c;
+    color: white;
+    font-size: 35px;
+    border-color: white;
+    border-width: 5px;
+    border-style: solid;
 }
+
+
+.post .mocne:hover
+{
+    background-color: #263E51;
+}
+
 
