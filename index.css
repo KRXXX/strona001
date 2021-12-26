@@ -7,14 +7,12 @@ body
     font-family: 'Sora';
 }
 
-
 /*pieski ziarka*/
 header h1
 {
     color: #4EE787;
     font-size: 6rem;
 }
-
 
 /*sam case na p*/
 header
@@ -28,10 +26,9 @@ header
     margin-right: auto;
     margin-top: 5em;
     width: 90%;
-    max-width: 1200px;
+    max-width: 1500px;
     text-align: center;
 }
-
 
 /*glosuj na*/
 header p
@@ -39,7 +36,6 @@ header p
     color: #16D298;
     font-size: 3rem;
 }
-
 
 .post
 {
@@ -61,13 +57,11 @@ header p
     width: 100%;
 }
 
-
 .post .mocne
 {
     margin-top: 1em;
     margin-bottom: auto;
     margin-left: 1em;
-    /*display: block;*/   
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
@@ -80,10 +74,70 @@ header p
     border-style: solid;
 }
 
-
 .post .mocne:hover
 {
     background-color: #263E51;
 }
 
+/* lyzka 4*/
+nav .container
+{
+    width: 90%;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+nav ul
+{
+    list-style: none;
+    display: block;
+}
+
+nav li
+{
+    list-style: none;
+    display: inline-block;
+}
+
+nav
+{
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #596275;
+    /*width: 1500px*/
+}
+
+nav .przycisk1 a, nav .przycisk2 a
+{
+    text-decoration: none;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: bold;
+}
+
+nav .przycisk1 a:hover, nav .przycisk2 a:hover
+{
+    color: white;
+}
+
+nav .przycisk1 a:visited:hover, nav .przycisk2 a:visited:hover
+{
+    color: #ffd700;
+}
+
+nav li.przycisk1 a
+{
+    color: #30db60;
+    margin-left: auto;
+    margin-right: 1em;
+}
+
+nav li.przycisk2 a
+{
+    color: #30db60
+}
