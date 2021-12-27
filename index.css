@@ -1,3 +1,9 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
 body
 {
     background-color: #072238;
@@ -11,22 +17,22 @@ body
 header h1
 {
     color: #4EE787;
-    font-size: 6rem;
+    font-size: 2.5rem;
 }
 
 /*sam case na p*/
 header
 {
     background-color: #263E51;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    padding-right: 3.5em;
-    padding-left: 3.5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 5em;
-    width: 90%;
-    max-width: 1500px;
+    margin-top: 2em;
+    width: 100%;
+    max-width: 600px;
     text-align: center;
 }
 
@@ -34,46 +40,50 @@ header
 header p
 {
     color: #16D298;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 .post
 {
-    width: 90%;
-    max-width: 960px;
+    width: 100%;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 2em;
+    margin-top: 1em;
     background-color: #263E51;
-    padding-top: 7em;
-    padding-bottom: 5em;
-    padding-right: 3.5em;
-    padding-left: 3.5em;
+    padding-top: 5em;
+    padding-bottom: 3em;
+    padding-right: 2em; 
+    padding-left: 2em;
 }
 
 .post img
 {
     margin-top: auto;
-    width: 100%;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+    max-width: 100%;
 }
 
 .post .mocne
 {
-    margin-top: 1em;
+    margin-top: 0.2em;
     margin-bottom: auto;
-    margin-left: 1em;
+    margin-left: auto;
     padding-left: 1em;
     padding-right: 1em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     background-color: #6ab04c;
     color: white;
-    font-size: 35px;
+    font-size: 15px;
     border-color: white;
-    border-width: 5px;
-    border-style: solid;
+    border-width: 2px;
+    border-style: solid; 
 }
-
+    
 .post .mocne:hover
 {
     background-color: #263E51;
@@ -83,7 +93,7 @@ header p
 nav .container
 {
     width: 90%;
-    max-width: 1500px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -102,10 +112,10 @@ nav li
 
 nav
 {
-    padding-bottom: 0.5em;
-    padding-top: 0.5em;
+    padding-bottom: 5px;
+    padding-top: 5px;
     margin-top: auto;
-    margin-bottom: auto;
+    margin-bottom: 55px;
     margin-left: auto;
     margin-right: auto;
     background-color: #596275;
@@ -115,7 +125,7 @@ nav
 nav .przycisk1 a, nav .przycisk2 a
 {
     text-decoration: none;
-    font-size: 40px;
+    font-size: 15px;
     letter-spacing: 3px;
     font-weight: bold;
 }
@@ -141,3 +151,4 @@ nav li.przycisk2 a
 {
     color: #30db60
 }
+
