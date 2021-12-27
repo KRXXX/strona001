@@ -51,8 +51,8 @@ header p
     margin-right: auto;
     margin-top: 1em;
     background-color: #263E51;
-    padding-top: 5em;
-    padding-bottom: 3em;
+    padding-top: 3em;
+    padding-bottom: 1em;
     padding-right: 2em; 
     padding-left: 2em;
 }
@@ -81,7 +81,8 @@ header p
     font-size: 15px;
     border-color: white;
     border-width: 2px;
-    border-style: solid; 
+    border-style: solid;
+    transition-duration: 300ms;
 }
     
 .post .mocne:hover
@@ -128,6 +129,7 @@ nav .przycisk1 a, nav .przycisk2 a
     font-size: 15px;
     letter-spacing: 3px;
     font-weight: bold;
+    transition-duration: 200ms;
 }
 
 nav .przycisk1 a:hover, nav .przycisk2 a:hover
@@ -152,3 +154,48 @@ nav li.przycisk2 a
     color: #30db60
 }
 
+/* lyzka 4 */
+
+footer
+{
+    width: 650px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+#prawa
+{
+    color: white;
+    font-size: 15px;
+    float: left;
+}
+
+.social
+{
+    float: right;
+}
+
+/* .social:hover
+{
+    
+    border: yellowgreen;
+    border-width: 3px;
+    
+}
+*/
+
+.social a
+{
+display: inline-block;
+margin-left: 5px;
+}
+
+.social img
+{
+    width: 35px;
+}
